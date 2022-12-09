@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins", sans-serif;
+}
+.item{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    clip-path: circle(50% at center 50%);
+    transition-property: clip-path;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: linear;
+}
+.item:hover{
+clip-path: circle(150% at top);
+}
